@@ -180,6 +180,17 @@ header {
 nav a {
   font-size: 2rem;
   padding: 3rem;
+  background-color: #E7E3D6;
+  border: solid #E7E3D6;
+  border-radius: 5px;
+  color: #191A2A;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: barlow, sans-serif;
+  font-weight: bold;
+  margin: 4px 2px;
 }
 .heroCall {
   position: relative;
