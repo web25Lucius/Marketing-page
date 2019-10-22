@@ -171,3 +171,22 @@ img {
   }
 
   */
+header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+nav {
+  font-size: 2rem;
+  color: #818f91;
+}
+header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+nav {
+  font-size: 2rem;
+  color: #818f91;
+  padding: 0.5rem;
+}
