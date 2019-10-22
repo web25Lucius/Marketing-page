@@ -175,10 +175,27 @@ header {
   display: flex;
   justify-content: center;
   justify-content: space-between;
-}
-nav {
-  font-size: 2rem;
   color: #818f91;
+}
+nav a {
+  font-size: 2rem;
+  padding: 3rem;
+}
+.heroCall {
+  position: relative;
+  text-align: left;
+  color: #E7E3D6;
+  font-size: 3rem;
+}
+.btmLftP {
+  position: absolute;
+  bottom: 700px;
+  left: 18px;
+}
+.btn {
+  position: absolute;
+  bottom: 300px;
+  left: 18px;
 }
 header {
   display: flex;
