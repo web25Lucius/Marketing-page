@@ -172,29 +172,26 @@ img {
 
   */
 header {
-  display: flex;
-  justify-content: center;
+  display: block;
   justify-content: space-between;
-  align-content: flex-end;
   background-color: #E7E3D6;
 }
 #headerLogo {
   margin: 0 0 0 40px;
+  display: inline-block;
 }
 nav a {
-  font-size: 2rem;
-  padding: 3rem;
+  font-size: 2.5rem;
   background-color: #E7E3D6;
   border: solid #E7E3D6;
   border-radius: 5px;
-  color: #191A2A;
+  color: #59667a;
   padding: 15px 32px;
   text-align: end;
   display: inline-block;
-  font-size: 16px;
   font-family: barlow, sans-serif;
   font-weight: bold;
-  margin: 4px 2px;
+  margin: 60px 20px 0 0;
   text-decoration: none;
 }
 .heroCall {
@@ -203,20 +200,28 @@ nav a {
   color: #E7E3D6;
   font-size: 3rem;
 }
-.btmLftP {
+.callH1 {
   position: absolute;
   bottom: 700px;
   left: 40px;
   line-height: 5rem;
 }
+.callP {
+  position: absolute;
+  bottom: 650px;
+  left: 40px;
+  font-size: 24pt;
+  color: #E7E3D6;
+  font-weight: 250;
+}
 .btn {
   position: absolute;
   bottom: 300px;
-  left: 100px;
+  left: 40px;
   background-color: #E7E3D6;
   border: solid #E7E3D6;
   border-radius: 5px;
-  color: #191A2A;
+  color: #292a30;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
