@@ -191,11 +191,23 @@ nav a {
   position: absolute;
   bottom: 700px;
   left: 18px;
+  line-height: 5rem;
 }
 .btn {
   position: absolute;
   bottom: 300px;
-  left: 18px;
+  left: 100px;
+  background-color: #E7E3D6;
+  border: solid #E7E3D6;
+  border-radius: 5px;
+  color: #191A2A;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-family: barlow, sans-serif;
+  font-weight: bold;
+  margin: 4px 2px;
 }
 header {
   display: flex;
