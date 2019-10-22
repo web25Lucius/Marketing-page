@@ -1,15 +1,31 @@
 header {
-    // .flexCenter();
     display: block;  
-    justify-content: space-between;
-    // align-content: flex-end;
     background-color: @satin; 
-   
+    @media @tablet{
+       .flexCenter();
+       
+    } 
+    @media @phone{
+        .flexCenter();
+        flex-direction: column;
+    
+
+    }
 }
 
 #headerLogo {
     margin: 0 0 0 40px; 
-    display: inline-block;  
+    display: inline-block; 
+    @media @tablet{
+        display: flex; 
+        height: 200px; 
+        width: 200px; 
+        justify-content: center;
+    }
+    @media @phone{
+        height: 100px; 
+        width: 100px; 
+    } 
 }
 
 nav a {
@@ -25,6 +41,19 @@ nav a {
     font-weight: bold;
     margin: 60px 20px 0 0;
     text-decoration: none;
+    @media @tablet{
+        font-size: 1.8rem; 
+        padding: 10px 28px; 
+        display: inline-block; 
+        margin: 60px 10px 0 0 ; 
+        }
+
+    @media @phone{
+        font-size: 1.2rem; 
+        padding: 5px 20px; 
+        display: inline-block; 
+        margin: 30px 10px 0 0 ; 
+        }
 }
 
 

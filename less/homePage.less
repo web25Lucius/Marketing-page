@@ -4,6 +4,9 @@
     color: @satin; 
     //font-weight: bold;
     font-size: 3rem; 
+    @media @tablet{
+     position: relative;    
+    }
 }
 
 .callH1{
@@ -11,6 +14,15 @@
     bottom: 700px; 
     left: 40px; 
     line-height: 5rem;
+    @media @tablet{
+     bottom: 500px; 
+     left: 40px; 
+     line-height: 5rem;   
+    }
+    @media @phone{
+        bottom: 100px; 
+        line-height: 4rem;
+    }
 }
 
 .callP{
@@ -20,6 +32,12 @@
     font-size: 24pt;
     color: @satin; 
     font-weight: 250;
+    @media @tablet{
+        display: none;    
+    }
+    @media @phone{
+        display: none; 
+    }
 }
 
 .btn{
@@ -37,5 +55,11 @@
     font-family: barlow, sans-serif;
     font-weight: bold;
     margin: 4px 2px;
-    
+    @media @tablet{
+        bottom: 400px; 
+        
+    }
+    @media @phone{
+        
+    }
 }
