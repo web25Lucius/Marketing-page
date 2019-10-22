@@ -175,7 +175,11 @@ header {
   display: flex;
   justify-content: center;
   justify-content: space-between;
-  color: #818f91;
+  align-content: flex-end;
+  background-color: #E7E3D6;
+}
+#headerLogo {
+  margin: 0 0 0 40px;
 }
 nav a {
   font-size: 2rem;
@@ -185,12 +189,13 @@ nav a {
   border-radius: 5px;
   color: #191A2A;
   padding: 15px 32px;
-  text-align: center;
+  text-align: end;
   display: inline-block;
   font-size: 16px;
   font-family: barlow, sans-serif;
   font-weight: bold;
   margin: 4px 2px;
+  text-decoration: none;
 }
 .heroCall {
   position: relative;
@@ -201,7 +206,7 @@ nav a {
 .btmLftP {
   position: absolute;
   bottom: 700px;
-  left: 18px;
+  left: 40px;
   line-height: 5rem;
 }
 .btn {
