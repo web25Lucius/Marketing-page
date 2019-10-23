@@ -249,3 +249,125 @@ nav a {
     font-size: 2rem;
   }
 }
+.heroCall {
+  display: flex;
+  background-color: #E7E3D6;
+  justify-items: center;
+  align-items: center;
+}
+.callH1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E7E3D6;
+  line-height: 5rem;
+  color: #59667A;
+  width: 950px;
+  height: 300px;
+  margin: 20px 0 0 0;
+}
+.callP p {
+  font-size: 2rem;
+  justify-items: center;
+  width: 450px;
+}
+.btn {
+  display: flex;
+  justify-items: center;
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  font-size: 2.4rem;
+  color: #E7E3D6;
+  border-radius: 5px;
+  border: #292a30;
+  background-color: #292a30;
+  text-decoration: none;
+  /*below was the second experiment*/
+  /*below was the first experiment*/
+}
+.btn:hover {
+  background-color: #E7E3D6;
+  color: #292a30;
+  width: 175px;
+  height: 70px;
+  justify-content: center;
+}
+header {
+  display: flex;
+  height: 110px;
+  width: auto;
+  justify-content: space-between;
+  background-color: #E7E3D6;
+}
+@media (max-width: 1000px) {
+  header {
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 1000px;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+  }
+}
+#headerLogo {
+  height: 110px;
+  width: 110px;
+  align-items: center;
+  margin: 0 0 0 40px;
+}
+@media (max-width: 1000px) {
+  #headerLogo {
+    height: 200px;
+    width: 200px;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 500px) {
+  #headerLogo {
+    height: 200px;
+    width: 200px;
+    align-items: flex-start;
+  }
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    flex-flow: column wrap;
+  }
+}
+nav a {
+  padding: 3rem;
+  font-size: 2rem;
+  font-family: barlow, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #59667A;
+  margin: 20px 40px 0px 0px;
+}
+@media (max-width: 1000px) {
+  nav a {
+    padding: 0.75rem;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  nav a {
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+}
