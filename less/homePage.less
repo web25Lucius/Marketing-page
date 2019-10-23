@@ -4,6 +4,12 @@
     background-color: @satin;  
     justify-items: center;
     align-items: center;
+    @media @tablet {
+        flex-direction: column-reverse;
+    }
+    @media @phone {
+        flex-direction: column-reverse;
+    }
 }
 
 .callH1{
@@ -16,6 +22,15 @@
     width: 950px; 
     height: 300px; 
     margin: 20px 0 0 0; 
+    @media @tablet{
+         justify-items: center;
+    }
+}
+
+.callH1wrapper{
+    @media @phone{
+    display: none;  
+    }
 }
 
 .callP p{
@@ -26,10 +41,6 @@
 }
 
 .btn {
-    // display: flex; 
-    // justify-content: baseline;
-    // align-items: center; 
-    // display: flex;
     display: flex; 
     justify-items: center; 
     width: 150px; 
@@ -50,6 +61,26 @@
           justify-content: center;
             }
 
+     @media @tablet{
+         background-color: @sirocco; 
+         color: @midnight; 
+         justify-content: center;
+         margin: 30px 0 5px 0;  
+         &:hover {
+             background-color: @midnight; 
+             color: @satin; 
+             font-weight: bold;
+         }
+        }
+     @media @phone{
+         margin: 125px 0 0 0; 
+     }
+    }
+
+
+    /* @media @phone{
+
+     }*/
 //      @media @tablet {
 //             background-color: @midnight; 
 //             color: @satin; 
@@ -237,4 +268,4 @@
 //             display: block; 
 //             justify-content: center;
 //         }
- }
+//}
