@@ -178,15 +178,55 @@ header {
   justify-content: space-between;
   background-color: #E7E3D6;
 }
+@media (max-width: 1000px) {
+  header {
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 1000px;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+  }
+}
 #headerLogo {
-  display: flex;
   height: 110px;
   width: 110px;
   align-items: center;
+  margin: 0 0 0 40px;
+}
+@media (max-width: 1000px) {
+  #headerLogo {
+    height: 200px;
+    width: 200px;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 500px) {
+  #headerLogo {
+    height: 200px;
+    width: 200px;
+    align-items: flex-start;
+  }
 }
 nav {
   display: flex;
   align-items: center;
+}
+@media (max-width: 1000px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    flex-flow: column wrap;
+  }
 }
 nav a {
   padding: 3rem;
@@ -197,4 +237,15 @@ nav a {
   color: #59667A;
   margin: 20px 40px 0px 0px;
 }
-/*experiment, restore below when done*/
+@media (max-width: 1000px) {
+  nav a {
+    padding: 0.75rem;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  nav a {
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+}

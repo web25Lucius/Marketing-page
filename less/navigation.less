@@ -4,24 +4,56 @@ header {
     width: auto;
     justify-content: space-between; 
     background-color: @satin;
-    // @media @phone{
-
-    // }
+        @media @tablet{
+            align-items: center;
+            justify-content: space-around;
+            height: 300px; 
+            width: 1000px;  
+        } 
+        @media @phone{
+            flex-direction: column-reverse;
+            align-items: center; 
+            height: 500px; 
+            width: 500px; 
+        } 
 }
 
 
 #headerLogo {
-    display: flex; 
     height: 110px;
     width: 110px;
     align-items: center; 
-}
+    margin: 0 0 0 40px; 
+        @media @tablet{
+            height: 200px; 
+            width: 200px;  
+            align-items: flex-start;
+        } 
+        @media @phone{
+            height: 200px; 
+            width: 200px; 
+            align-items: flex-start;
+        } 
+    }
 
 nav{
     display: flex; 
     align-items: center;
+        @media @tablet{
+            flex-wrap: wrap;
+            //  align-items: inherit;
+            // align-items: center;
+            // height: 200px; 
+            // width: 1000px;  
+        } 
+        @media @phone{
+            flex-flow: column wrap; 
+            // align-items: center;
+            // height: 300px; 
+            // width: 500px; 
+        } 
 
-}
+ }
 
 nav a {
     padding: 3rem;
@@ -30,7 +62,26 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     color: @shuttle;
-    margin: 20px 40px 0px 0px; 
+    margin: 20px 40px 0px 0px;
+        @media @tablet{
+            padding: 0.75rem; 
+            font-size: 2rem; 
+            // margin: 20px 0 10px 0px; 
+            // justify-items: left; 
+            // align-items: center;
+            // height: 200px; 
+            // width: 1000px;
+            // flex-flow: column wrap;  
+        } 
+        @media @phone{
+            padding: 0.5rem; 
+            font-size: 2rem; 
+            // justify-items: left; 
+            // align-items: center;
+            // height: 300px; 
+            // width: 500px;
+            // flex-direction: reverse column wrap; 
+        }  
 }
 
 
@@ -48,28 +99,6 @@ nav a {
 
 
 
-
-
-
-
-
-// header {
-//     display: block;  
-//     background-color: @satin; 
-//     @media @tablet{
-//        .flexCenter();
-       
-//     } 
-//     @media @phone{
-//         .flexCenter();
-//         flex-direction: column;
-//         justify-content: center;
-    
-
-//     }
-// }
-
-/*experiment, restore below when done*/
 
 
 
@@ -82,13 +111,7 @@ nav a {
 //         width: 200px; 
 //         justify-content: center;
 //     }
-//     @media @phone{
-//         display: flex; 
-//         justify-content: center;
-//         height: 100px; 
-//         width: 100px; 
-    
-//     } 
+//     
 // }
 
 // nav a {
