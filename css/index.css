@@ -136,6 +136,9 @@ html,
 body {
   font-family: 'Lanto', sans-serif;
 }
+body {
+  background-color: #E7E3D6;
+}
 h1,
 h2,
 h3,
@@ -294,6 +297,7 @@ nav a {
 .btn {
   display: flex;
   justify-items: center;
+  align-items: center;
   width: 150px;
   height: 60px;
   padding: 10px;
@@ -316,6 +320,7 @@ nav a {
     background-color: #818F91;
     color: #292a30;
     justify-content: center;
+    align-items: center;
     margin: 30px 0 5px 0;
   }
   .btn:hover {
@@ -329,11 +334,57 @@ nav a {
     margin: 125px 0 0 0;
   }
 }
-/* @media @phone{
-
-     }*/
-/*below was the second experiment*/
-/*below was the first experiment*/
+.pink {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .pink {
+    display: flex;
+  }
+}
+@media (max-width: 1000px) {
+  .pink {
+    display: flex;
+  }
+}
+.ftr1Section {
+  background: #E7E3D6;
+}
+.QR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E7E3D6;
+  line-height: 4rem;
+  color: #59667A;
+  height: 250px;
+  margin: 20px 0 0 0;
+}
+@media (max-width: 1000px) {
+  .QR {
+    justify-items: center;
+  }
+}
+.f1P p {
+  font-size: 2rem;
+  margin: 25px 0 0 0;
+}
+@media (max-width: 500px) {
+  .f1P p {
+    padding: 0 0 0 20px;
+  }
+}
+.ftr2Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: flex-end;
+  background-color: #E7E3D6;
+  line-height: 5rem;
+  color: #59667A;
+  height: 250px;
+  margin: 20px 0 0 0;
+}
 header {
   display: flex;
   height: 110px;
@@ -411,4 +462,46 @@ nav a {
     padding: 0.5rem;
     font-size: 2rem;
   }
+}
+.aboutContent h1 {
+  padding: 0 0 0 40px;
+}
+.aboutContent h2 {
+  padding: 0 0 0 40px;
+}
+.aboutContent p {
+  font-size: 1.6 rem;
+}
+@media (max-width: 500px) {
+  .aboutContent p {
+    width: 450;
+  }
+}
+.aboutContent address {
+  margin: 0 0 0 40px;
+  font-size: 1.8rem;
+}
+.teamWrap {
+  display: flex;
+  flex-direction: column;
+}
+.titleWrap {
+  display: flex;
+  flex-direction: column;
+}
+.mona {
+  display: flex;
+}
+.mona img {
+  width: 300px;
+  height: 300px;
+}
+@media (max-width: 500px) {
+  .mona img {
+    width: 300px;
+    height: 300px;
+  }
+}
+.mona p {
+  width: 400px;
 }

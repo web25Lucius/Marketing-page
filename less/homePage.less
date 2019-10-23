@@ -43,6 +43,7 @@
 .btn {
     display: flex; 
     justify-items: center; 
+    align-items: center;
     width: 150px; 
     height: 60px;
     padding: 10px;
@@ -65,6 +66,7 @@
          background-color: @sirocco; 
          color: @midnight; 
          justify-content: center;
+         align-items: center;
          margin: 30px 0 5px 0;  
          &:hover {
              background-color: @midnight; 
@@ -77,195 +79,51 @@
      }
     }
 
+  .pink {
+      display: none; 
+      @media @tablet{
+          display: flex; 
+      }
+      @media @tablet{
+          display: flex; 
+      }
+  }
 
-    /* @media @phone{
+.ftr1Section{
+    background: @satin; 
+}
 
-     }*/
-//      @media @tablet {
-//             background-color: @midnight; 
-//             color: @satin; 
-//             &:hover{
-//                 background-color: @midnight; 
-//                 color: @satin; 
-//                     }
-//             }
+  .QR {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        background-color: @satin;
+        line-height: 4rem;
+        color: @shuttle;
+        height: 250px; 
+        margin: 20px 0 0 0; 
+        @media @tablet{
+             justify-items: center;
+        }
+      }
 
-//      @media @phone {
-//             padding: 20px; 
-//             height: 100px;
-//             width: 100%;  
-//             border-radius: 5px;
-//             background-color: satin;  
-//             border: @satin 3px solid;
-//             color: @midnight;  
-//                &:hover{
-//                 background-color: @midnight; 
-//                 color: @satin; 
-//                 width: 80%; 
-//                 }
+    .f1P p {
+        font-size: 2rem;
+        margin: 25px 0 0 0;
+        @media @phone{
+            padding: 0 0 0 20px; 
+        } 
+    }
 
-//       }
-    
-//   }
+.ftr2Text {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-items: flex-end;
+    background-color: @satin;
+    line-height: 5rem;
+    color: @shuttle;
+    height: 250px; 
+    margin: 20px 0 0 0; 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*below was the second experiment*/
-
-// .heroImg{
-//     position: absolute;
-//     top: 110px; 
-//      z-index: 1;
-// }
-
-// // .heroCall{
-// //     .flexCenter(); 
-// //     flex-direction: column;
-// //     color: @satin;
-// //     font-weight: bold;
-// //     font-family: barlow, sans-serif;
-// // }
-
-
-
-// .pink{
-//     position: absolute;
-//     top: 800px; 
-//      z-index: 2;
-// }
-
-// .eventImg{
-//     position: absolute;
-//     top: 800px; 
-//      z-index: 3;
-// }
-
-
-// .mirrorImg{
-//     position: absolute;
-//     top: 800px; 
-//      z-index: 4;
-// }
-
-// .footerImg{
-//     position: absolute;
-//     top: 800px; 
-//      z-index: 1;
-// }
-
-
-
-
-
-
-
-
-
-
-
-/*below was the first experiment*/
-
-
-
-
-// .heroCall{
-//     position: relative;
-//     text-align: left; 
-//     color: @satin; 
-//     //font-weight: bold;
-//     font-size: 3rem; 
-//     @media @tablet{
-//      position: relative;  
-//      text-align: center;  
-//     }
-// }
-
-// .callH1{
-//     position: absolute;
-//     bottom: 700px; 
-//     left: 40px; 
-//     line-height: 5rem;
-//         @media @tablet{
-//             position: absolute;
-//             background-color: @sirocco;
-//             margin: auto;    
-//             bottom: 500px; 
-//             left: 40px; 
-//             line-height: 5rem;
-//             font-size: 1.8rem;    
-//             }
-//         @media @phone{
-//             position: absolute; 
-//             background-color: @sirocco; 
-//             margin: auto; 
-//             bottom: 100px; 
-//             line-height: 4rem;
-//             font-size: 1.6rem; 
-//     }
-// }
-
-
-// .callP{
-//     position:absolute;
-//     bottom: 650px; 
-//     left: 40px; 
-//     font-size: 24pt;
-//     color: @satin; 
-//     font-weight: 250;
-//         @media @tablet{
-//             display: none;    
-//         }
-
-//         @media @phone{
-//             display: none; 
-//         }
-// }
-
-// .btn{
-//     position: absolute;
-//     display: inline-block;
-//     bottom: 300px; //move button up and right.  line it up 
-//     left: 40px; 
-//     background-color: @satin;
-//     border:  solid @satin;
-//     border-radius: 5px;
-//     color: @midnight;
-//     padding: 15px 32px;
-//     text-align: center;
-//     font-size: 16px;
-//     font-family: barlow, sans-serif;
-//     font-weight: bold;
-//     margin: 4px 2px;
-//          @media @tablet{
-//              display: block; 
-//              justify-content: center;
-//             //bottom: 400px; 
-//                 }
-//         @media @phone{
-//             display: block; 
-//             justify-content: center;
-//         }
-//}
+}
