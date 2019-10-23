@@ -1,0 +1,129 @@
+
+.heroCall {
+    display: flex;
+    background-color: @satin;  
+    justify-items: center;
+    align-items: center;
+    @media @tablet {
+        flex-direction: column-reverse;
+    }
+    @media @phone {
+        flex-direction: column-reverse;
+    }
+}
+
+.callH1{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-color: @satin;
+    line-height: 5rem;
+    color: @shuttle;
+    width: 950px; 
+    height: 300px; 
+    margin: 20px 0 0 0; 
+    @media @tablet{
+         justify-items: center;
+    }
+}
+
+.callH1wrapper{
+    @media @phone{
+    display: none;  
+    }
+}
+
+.callP p{
+    font-size: 2rem; 
+    justify-items: center;
+    width: 450px; 
+
+}
+
+.btn {
+    display: flex; 
+    justify-items: center; 
+    align-items: center;
+    width: 150px; 
+    height: 60px;
+    padding: 10px;
+    font-size: 2.4rem;  
+    color: @satin; 
+    border-radius: 5px; 
+    border:@midnight; 
+    background-color: @midnight;
+    text-decoration: none;
+    
+     &:hover{
+          background-color: @satin; 
+          color: @midnight; 
+          width: 175px;
+          height: 70px;  
+          justify-content: center;
+            }
+
+     @media @tablet{
+         background-color: @sirocco; 
+         color: @midnight; 
+         justify-content: center;
+         align-items: center;
+         margin: 30px 0 5px 0;  
+         &:hover {
+             background-color: @midnight; 
+             color: @satin; 
+             font-weight: bold;
+         }
+        }
+     @media @phone{
+         margin: 125px 0 0 0; 
+     }
+    }
+
+  .pink {
+      display: none; 
+      @media @tablet{
+          display: flex; 
+      }
+      @media @tablet{
+          display: flex; 
+      }
+  }
+
+.ftr1Section{
+    background: @satin; 
+}
+
+  .QR {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        background-color: @satin;
+        line-height: 4rem;
+        color: @shuttle;
+        height: 250px; 
+        margin: 20px 0 0 0; 
+        @media @tablet{
+             justify-items: center;
+        }
+      }
+
+    .f1P p {
+        font-size: 2rem;
+        margin: 25px 0 0 0;
+        @media @phone{
+            padding: 0 0 0 20px; 
+        } 
+    }
+
+.ftr2Text {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-items: flex-end;
+    background-color: @satin;
+    line-height: 5rem;
+    color: @shuttle;
+    height: 250px; 
+    margin: 20px 0 40px 40px; 
+
+}

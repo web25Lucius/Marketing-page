@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    height: 110px; 
+    width: auto;
+    justify-content: space-between; 
+    background-color: @satin;
+        @media @tablet{
+            align-items: center;
+            justify-content: space-around;
+            height: 300px; 
+            width: 1000px;  
+        } 
+        @media @phone{
+            flex-direction: column-reverse;
+            align-items: center; 
+            height: 500px; 
+            width: 500px; 
+        } 
+}
+
+
+#headerLogo {
+    height: 110px;
+    width: 110px;
+    align-items: center; 
+    margin: 0 0 0 40px; 
+        @media @tablet{
+            height: 200px; 
+            width: 200px;  
+            align-items: flex-start;
+        } 
+        @media @phone{
+            height: 200px; 
+            width: 200px; 
+            align-items: flex-start;
+        } 
+    }
+
+nav{
+    display: flex; 
+    align-items: center;
+        @media @tablet{
+            flex-wrap: wrap;
+        } 
+        @media @phone{
+            flex-flow: column wrap; 
+        } 
+
+ }
+
+nav a {
+    padding: 3rem;
+    font-size: 2rem; 
+    font-family: barlow, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: @shuttle;
+    margin: 20px 40px 0px 0px;
+        @media @tablet{
+            padding: 0.75rem; 
+            font-size: 2rem; 
+        } 
+        @media @phone{
+            padding: 0.5rem; 
+            font-size: 2rem;
+        }  
+}
