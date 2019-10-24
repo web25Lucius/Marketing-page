@@ -251,12 +251,14 @@ nav a {
     font-size: 2rem;
   }
 }
-.contactSection address {
-  margin: 40px;
+footer a {
+  text-decoration: none;
+  color: #59667A;
+  font-size: 4rem;
+  font-weight: lighter;
 }
-footer {
-  display: flex;
-  flex-direction: column;
+footer a:hover {
+  color: #818F91;
 }
 .heroCall {
   display: flex;
@@ -542,7 +544,7 @@ nav a {
 @media (max-width: 500px) {
   .steve {
     height: auto;
-    width: auto;
+    width: 80%;
     justify-items: center;
   }
 }
